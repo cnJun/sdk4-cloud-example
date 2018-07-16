@@ -1,0 +1,16 @@
+
+spring:
+  session:
+    store-type: none
+  application:
+    name: sdk4-cloud-base
+  zipkin:
+    base-url: http://localhost:9012
+
+server:
+  port: 9030
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9011/eureka/

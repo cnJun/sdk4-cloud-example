@@ -1,0 +1,15 @@
+
+spring:
+  session:
+    store-type: none
+  application:
+    name: sdk4-cloud-monitor-zipkin
+
+server:
+  port: 9012
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false

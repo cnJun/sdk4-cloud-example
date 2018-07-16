@@ -1,0 +1,16 @@
+
+spring:
+  session:
+    store-type: none
+
+server:
+  port: 9011
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
