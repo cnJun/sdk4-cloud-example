@@ -7,11 +7,11 @@ sdk4.com 云服务架构项目示例，云服务基于 `spring cloud`。
 
 - sdk4-cloud-parent
 
-    Maven Parent POMs，定义 jar 依赖，所有项目均使用该项目作为自己的 parent，不能自己定义依赖 jar 的版本，统一管理，防止冲突。
+    Maven Parent POMs，定义 jar 依赖，所有项目均使用该项目作为自己的 parent，不能自己定义依赖 jar 的版本，统一管理，防止冲突。
 
 - sdk4-cloud-config
 
-    统一配置中心，服务端口：`9010`
+    统一配置中心，服务端口：`9010`
 
 - sdk4-cloud-server
 
@@ -27,11 +27,11 @@ sdk4.com 云服务架构项目示例，云服务基于 `spring cloud`。
 
 - sdk4-cloud-base
 
-    基础通用部分，用户、菜单、权限、短信等基础通用功能，服务端口：`9030`
+    基础通用部分，用户、菜单、权限、短信等基础通用功能，服务端口：`9030`
 
 - sdk4-cloud-biz-xxx
 
-    各业务模块，服务端口：`9051` ~ `9059`
+    各业务模块，服务端口：`9051` ~ `9059`
 
 - sdk4-cloud-demo-client
 
@@ -50,7 +50,7 @@ sdk4.com 云服务架构项目示例，云服务基于 `spring cloud`。
     - com.sdk4.cloud.config 配置中心
     - com.sdk4.cloud.server 注册中心
     - com.sdk4.cloud.gateway 网关
-    - com.sdk4.cloud.monitor 链路监控
+    - com.sdk4.cloud.monitor 链路监控
 
 - com.sdk4.base
 
@@ -60,11 +60,11 @@ sdk4.com 云服务架构项目示例，云服务基于 `spring cloud`。
 
     业务模块基础包名
 
-**基础包名下包名说明**
+**基础包名下包名说明**
 
 - annotation 注解
 - config 配置
-- domain 数据库实体类
+- domain 数据库实体类
 - enums 枚举类型
 - exception 异常类
 - repository 数据库JPA
